@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="icon" href="images/somipay.jpg.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header>
+    <nav>
+      <div class="nav-container">
+        <div class="logo">
+          <img src="images/somipay.jpg.png" alt="SomiPay Logo" />
+        </div>
+        <div class="nav-actions">
+          <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="dropdown">
+            <button class="dropbtn">
+              <i class='bx bx-user-circle'></i> My Account
+            </button>
+            <div class="dropdown-content">
+              <a href="#login">Login</a>
+              <a href="#settings">Settings</a>
+              <a href="#profile">Profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+<section id="home">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1 style="color: #003566; font-weight: 700;">
+  Welcome to <span style="color: #0077b6; font-weight: 800;">SomiPay</span>
+</h1>
+      <p>Smart digital solutions for brands, businesses, and financial growth.</p>
+      <div class="hero-buttons">
+        <a href="#services" class="btn primary-btn">See Our Services</a>
+        <a href="#contact" class="btn secondary-btn">Get Started</a>
+      </div>
+    </div>
+
+    <!-- Hero Image Slider -->
+    <div class="hero-slider">
+      <img src="images/bank dashboard.png" class="slide active" alt="Slide 1" />
+      <img src="images/bank dashboard2.webp" class="slide" alt="Slide 2" />
+      <img src="images/bank dashboard3.png" class="slide" alt="Slide 3" />
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- SERVICES SECTION -->
+<section id="services">
+  <div class="services-container">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+
+      <div class="service-card">
+        <i class="bx bx-bar-chart" style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 0.5rem;"></i>
+        <h3>SEO Optimization</h3>
+        <p>Improve your search rankings and increase visibility on Google and beyond.</p>
+        <div class="service-details">
+          We help your website rank higher with keyword research, backlink strategies, and performance optimization that drives long-term results.
+        </div>
+      </div>
+
+      <div class="service-card">
+        <i class="bx bx-edit" style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 0.5rem;"></i>
+        <h3>Content Marketing</h3>
+        <p>Attract and retain customers by creating and distributing valuable content.</p>
+        <div class="service-details">
+          We create blogs, articles, videos, and visuals tailored to your brand voice and goals—helping build trust and drive conversions.
+        </div>
+      </div>
+
+      <div class="service-card">
+        <i class="bx bx-bullseye" style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 0.5rem;"></i>
+        <h3>PPC Advertising</h3>
+        <p>Drive immediate traffic to your site with targeted pay-per-click campaigns.</p>
+        <div class="service-details">
+          We design and manage campaigns on Google, Facebook, and more—delivering instant visibility and results without wasting your ad spend.
+        </div>
+      </div>
+
+      <div class="service-card">
+        <i class="bx bx-mobile-alt" style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 0.5rem;"></i>
+        <h3>App Development</h3>
+        <p>We build high-performing cross-platform mobile apps tailored to your business goals.</p>
+        <div class="service-details">
+          We develop intuitive, fast, and scalable mobile apps using modern frameworks for Android and iOS—suited for finance, e-commerce, and more.
+        </div>
+      </div>
+
+      <div class="service-card">
+        <i class="bx bx-paint" style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 0.5rem;"></i>
+        <h3>UI/UX Design</h3>
+        <p>Create user-focused designs that are clean, intuitive, and conversion-friendly.</p>
+        <div class="service-details">
+          From wireframes to final designs, we ensure seamless user journeys, clear layouts, and delightful experiences across all devices.
+        </div>
+      </div>
+
+      <div class="service-card">
+        <i class="bx bx-shield" style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 0.5rem;"></i>
+        <h3>Cybersecurity</h3>
+        <p>Secure your digital assets with up-to-date protocols and risk management strategies.</p>
+        <div class="service-details">
+          We perform vulnerability assessments, SSL setups, and policy configurations to protect your users and critical business data.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>
+          We are a digital marketing agency focused on helping small and medium businesses scale online.
+          From SEO to paid ads, we help you stand out and reach the right audience.
+        </p>
+        <a href="#contact" class="btn primary-btn">Learn More</a>
+      </div>
+      <div class="about-image">
+        <img src="images/about-photo.jpg" alt="About Us" />
+      </div>
+      <div class="service-card">
+        <i class="bx bx-globe" style="font-size: 2rem; color: var(--accent-color); margin-bottom: 0.5rem;"></i>
+        <h3>Web Design</h3>
+        <p>Modern and responsive website design solutions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio">
+  <div class="services-container">
+    <h2>Our Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <a href="fintech.html" target="_blank">
+          <img src="images/project1.jpg" alt="Project 1">
+          <h3>Fintech Website</h3>
+          <p>A responsive and secure online banking web platform.</p>
+        </a>
+      </div>
+
+      <div class="project-card">
+        <a href="marketing.html" target="_blank">
+          <img src="images/project2.jpg" alt="Project 2">
+          <h3>Marketing Landing Page</h3>
+          <p>High-converting digital marketing page with modern UI.</p>
+        </a>
+      </div>
+
+      <div class="project-card">
+        <a href="dashboard.html" target="_blank">
+          <img src="images/project3.jpg" alt="Project 3">
+          <h3>Mobile Dashboard</h3>
+          <p>Sleek admin dashboard for mobile banking apps.</p>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <div class="cta-container">
+      <h2>Get in Touch</h2>
+      <p>You can reach out to us via:</p>
+      <p>
+        📞 <a href="tel:+2347069411772" class="contact-link phone">+2347069411772</a><br />
+        📧 <a href="mailto:kodesomi93@gmail.com" class="contact-link email">kodesomi93@gmail.com</a><br />
+        📍 <a href="https://maps.google.com/?q=Lagos,Nigeria" target="_blank" class="contact-link location">Lagos, Nigeria</a>
+      </p>
+      <a href="#home" class="btn primary-btn">Back to Top</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Odesomi</p>
+  </footer>
+
+  <!-- LOGIN MODAL -->
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn login-close">&times;</span>
+      <h2>Login to SomiPay</h2>
+      <form>
+        <input type="text" placeholder="Username or Email" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit" class="btn primary-btn">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- SETTINGS MODAL -->
+  <div id="settingsModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn settings-close">&times;</span>
+      <h2>Settings</h2>
+      <form>
+        <label for="theme">Choose Theme:</label>
+        <select id="theme">
+          <option>Light</option>
+          <option>Dark</option>
+        </select>
+        <br><br>
+        <button type="submit" class="btn primary-btn">Save Settings</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- PROFILE MODAL -->
+  <div id="profileModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn profile-close">&times;</span>
+      <h2>User Profile</h2>
+      <p><strong>Name:</strong> John Doe</p>
+      <p><strong>Email:</strong> johndoe@example.com</p>
+      <a href="#edit-profile" class="btn secondary-btn">Edit Profile</a>
+    </div>
+  </div>
+
+  <!-- MODAL SCRIPTS -->
+  <script>
+    // LOGIN MODAL
+    const loginLink = document.querySelector('a[href="#login"]');
+    const loginModal = document.getElementById('loginModal');
+    const loginClose = document.querySelector('.login-close');
+
+    loginLink.addEventListener('click', e => {
+      e.preventDefault();
+      loginModal.style.display = 'block';
+    });
+
+    loginClose.addEventListener('click', () => loginModal.style.display = 'none');
+
+    // SETTINGS MODAL
+    const settingsLink = document.querySelector('a[href="#settings"]');
+    const settingsModal = document.getElementById('settingsModal');
+    const settingsClose = document.querySelector('.settings-close');
+
+    settingsLink.addEventListener('click', e => {
+      e.preventDefault();
+      settingsModal.style.display = 'block';
+    });
+
+    settingsClose.addEventListener('click', () => settingsModal.style.display = 'none');
+
+    // PROFILE MODAL
+    const profileLink = document.querySelector('a[href="#profile"]');
+    const profileModal = document.getElementById('profileModal');
+    const profileClose = document.querySelector('.profile-close');
+
+    profileLink.addEventListener('click', e => {
+      e.preventDefault();
+      profileModal.style.display = 'block';
+    });
+
+    profileClose.addEventListener('click', () => profileModal.style.display = 'none');
+
+    // Close modal when clicking outside
+    window.addEventListener('click', e => {
+      if (e.target === loginModal) loginModal.style.display = 'none';
+      if (e.target === settingsModal) settingsModal.style.display = 'none';
+      if (e.target === profileModal) profileModal.style.display = 'none';
+    });
+    function openModal(id) {
+  document.getElementById(id).style.display = "block";
+}
+
+document.querySelectorAll(".close-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.getAttribute("data-close");
+    document.getElementById(id).style.display = "none";
+  });
+});
+
+window.addEventListener("click", e => {
+  if (e.target.classList.contains("modal")) {
+    e.target.style.display = "none";
+  }
+});
+  </script>
+  <script>
+  function toggleService(card) {
+    card.classList.toggle("active");
+  }
+</script>
+<script>
+  document.querySelectorAll('.service-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const detail = card.querySelector('.service-details');
+      if (detail.style.display === "block") {
+        detail.style.display = "none";
+      } else {
+        // Close other open ones
+        document.querySelectorAll('.service-details').forEach(d => d.style.display = "none");
+        detail.style.display = "block";
+      }
+    });
+  });
+</script>
+<script>
+  const slides = document.querySelectorAll('.hero-slider .slide');
+  let currentSlide = 0;
+
+  function showNextSlide() {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add('active');
+  }
+
+  setInterval(showNextSlide, 3000); // change every 3 seconds
+</script>
+</body>
+</html>
